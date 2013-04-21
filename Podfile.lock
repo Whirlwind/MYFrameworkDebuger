@@ -1,0 +1,30 @@
+
+SPEC CHECKSUMS: 
+  NSLogger: 5c8967749a273ce5a8a666ec8f620649e8c9fb88
+  FMDB: d4f5b1444ea41c91a44119657c1dbdd91ba14de2
+  MYFramework: 8d04d3b8efd351595647f60c74d8595639f0d5b7
+  UIView: a1085b6ecf7c1db57d39911cdad7a0a433573095
+  Reachability: 046aa7bdbf5c014eac1a260fa9e5f816985add66
+  NSDate: e46fbe7c9ab5ab0e701f017d62ab44090bb9c7aa
+
+COCOAPODS: 0.16.1
+
+EXTERNAL SOURCES: 
+  MYFramework: 
+    :local: ../MYFramework
+
+PODS: 
+- FMDB (2.0.1)
+- MYFramework (1.0): 
+  - FMDB
+  - NSDate (~> 0.0.3)
+  - UIView
+- NSDate (0.0.3)
+- NSLogger (1.1.0)
+- Reachability (3.1.0)
+- UIView (0.0.1)
+
+DEPENDENCIES: 
+- MYFramework (from `../MYFramework')
+- NSLogger
+- Reachability
